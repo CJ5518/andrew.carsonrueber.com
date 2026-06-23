@@ -24,7 +24,7 @@ email: ixisandrew@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This description will supposedly be
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://andrew.carsonrueber.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ixisthenerdnetwork
 
 # Build settings
