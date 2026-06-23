@@ -8,7 +8,32 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
+.round {
+  border-radius: 100%;
+}
 
+.nav-item{
+  display: inline-block;
+  border: 1px solid $grey-color;
+  width: auto;
+  text-align: center;
+  padding: 0 5px;
+}
+
+.center-children{
+  display: grid;
+  place-items: center;
+}
+
+.consoleBoxDiv {
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+}
+
+.consoleBoxHolder {
+  width: 100%;
+}
 
 /**
  * Basic styling
