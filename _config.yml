@@ -28,9 +28,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ixisthenerdnetwork
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+#plugins:
+#  - jekyll-feed
 
 nav_pages:
   - about.md
