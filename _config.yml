@@ -21,8 +21,9 @@
 title: Andrew Ixis Repairs
 author: Andrew Karl Pearson
 email: ixisandrew@gmail.com
+phone: (555)-555-3226
 description: >- # this means to ignore newlines until "baseurl:"
-  This description will supposedly be
+  This description will supposedly be seen by seo but I have my doubts...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://andrew.carsonrueber.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ixisthenerdnetwork
@@ -31,8 +32,6 @@ twitter_username: ixisthenerdnetwork
 #plugins:
 #  - jekyll-feed
 
-nav_pages:
-  - about.md
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

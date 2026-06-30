@@ -14,7 +14,6 @@ dl, dd, ol, ul, figure {
 
 .nav-item{
   display: inline-block;
-  border: 1px solid $grey-color;
   width: auto;
   text-align: center;
   padding: 0 5px;
@@ -31,9 +30,15 @@ dl, dd, ol, ul, figure {
   background-size: contain;
 }
 
-.consoleBoxHolder {
+.console-box-holder {
   width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gold-trim {
+  text-shadow: -1px -1px 0 $grey-color, 1px -1px 0 $grey-color, -1px 1px 0 $grey-color, 1px 1px 0 $grey-color;
 }
 
 /**
@@ -129,15 +134,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $text-color;
   text-decoration: none;
 
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
-
   &:hover {
-    color: $text-color;
+    color: $grey-color;
     text-decoration: underline;
   }
 
